@@ -31,8 +31,8 @@ import (
 	"testing"
 
 	"github.com/go-shiori/dom"
-	"github.com/markusmobius/go-domdistiller/internal/domutil"
-	"github.com/markusmobius/go-domdistiller/internal/testutil"
+	"github.com/omnivore-app/go-domdistiller/internal/domutil"
+	"github.com/omnivore-app/go-domdistiller/internal/testutil"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/html"
 )

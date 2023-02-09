@@ -29,8 +29,8 @@ package parser
 import (
 	nurl "net/url"
 
-	"github.com/markusmobius/go-domdistiller/internal/logutil"
-	"github.com/markusmobius/go-domdistiller/internal/pagination/info"
+	"github.com/omnivore-app/go-domdistiller/internal/logutil"
+	"github.com/omnivore-app/go-domdistiller/internal/pagination/info"
 )
 
 // DetectParamInfo creates a PageParamInfo based on outlinks and numeric text around them.

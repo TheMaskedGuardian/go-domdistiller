@@ -30,8 +30,8 @@ import (
 	nurl "net/url"
 	"strings"
 
-	"github.com/markusmobius/go-domdistiller/internal/pagination/info"
-	"github.com/markusmobius/go-domdistiller/internal/pagination/pattern"
+	"github.com/omnivore-app/go-domdistiller/internal/pagination/info"
+	"github.com/omnivore-app/go-domdistiller/internal/pagination/pattern"
 )
 
 type PageCandidate struct {

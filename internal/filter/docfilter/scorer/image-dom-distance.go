@@ -27,7 +27,7 @@
 package scorer
 
 import (
-	"github.com/markusmobius/go-domdistiller/internal/domutil"
+	"github.com/omnivore-app/go-domdistiller/internal/domutil"
 	"golang.org/x/net/html"
 )
 

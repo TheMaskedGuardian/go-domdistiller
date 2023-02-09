@@ -29,7 +29,7 @@ package testutil
 import (
 	"bytes"
 
-	"github.com/markusmobius/go-domdistiller/internal/webdoc"
+	"github.com/omnivore-app/go-domdistiller/internal/webdoc"
 )
 
 func GetContentFromTextDocument(doc *webdoc.TextDocument) string {

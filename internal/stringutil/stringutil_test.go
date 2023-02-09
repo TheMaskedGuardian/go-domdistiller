@@ -30,7 +30,7 @@ import (
 	nurl "net/url"
 	"testing"
 
-	"github.com/markusmobius/go-domdistiller/internal/stringutil"
+	"github.com/omnivore-app/go-domdistiller/internal/stringutil"
 	"github.com/stretchr/testify/assert"
 )
 

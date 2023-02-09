@@ -29,7 +29,7 @@ package webdoc
 import (
 	"bytes"
 
-	"github.com/markusmobius/go-domdistiller/internal/stringutil"
+	"github.com/omnivore-app/go-domdistiller/internal/stringutil"
 	"golang.org/x/net/html"
 )
 

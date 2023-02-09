@@ -28,8 +28,8 @@ package testutil
 
 import (
 	"github.com/go-shiori/dom"
-	"github.com/markusmobius/go-domdistiller/internal/stringutil"
-	"github.com/markusmobius/go-domdistiller/internal/webdoc"
+	"github.com/omnivore-app/go-domdistiller/internal/stringutil"
+	"github.com/omnivore-app/go-domdistiller/internal/webdoc"
 )
 
 // WebDocumentBuilder is a simple builder for testing.

@@ -31,8 +31,8 @@ import (
 	"strings"
 
 	"github.com/go-shiori/dom"
-	"github.com/markusmobius/go-domdistiller/data"
-	"github.com/markusmobius/go-domdistiller/internal/domutil"
+	"github.com/omnivore-app/go-domdistiller/data"
+	"github.com/omnivore-app/go-domdistiller/internal/domutil"
 	"golang.org/x/net/html"
 )
 

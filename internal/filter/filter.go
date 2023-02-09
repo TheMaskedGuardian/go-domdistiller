@@ -42,7 +42,7 @@
 
 package filter
 
-import "github.com/markusmobius/go-domdistiller/internal/webdoc"
+import "github.com/omnivore-app/go-domdistiller/internal/webdoc"
 
 // TextDocumentFilter is interface for filter that process a TextDocument.
 type TextDocumentFilter interface {

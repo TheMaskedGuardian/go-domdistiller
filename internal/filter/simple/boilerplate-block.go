@@ -43,8 +43,8 @@
 package simple
 
 import (
-	"github.com/markusmobius/go-domdistiller/internal/label"
-	"github.com/markusmobius/go-domdistiller/internal/webdoc"
+	"github.com/omnivore-app/go-domdistiller/internal/label"
+	"github.com/omnivore-app/go-domdistiller/internal/webdoc"
 )
 
 // BoilerplateBlock removes TextBlocks which have explicitly been

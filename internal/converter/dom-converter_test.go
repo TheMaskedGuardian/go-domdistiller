@@ -30,10 +30,10 @@ import (
 	"testing"
 
 	"github.com/go-shiori/dom"
-	"github.com/markusmobius/go-domdistiller/internal/converter"
-	"github.com/markusmobius/go-domdistiller/internal/stringutil"
-	"github.com/markusmobius/go-domdistiller/internal/testutil"
-	"github.com/markusmobius/go-domdistiller/internal/webdoc"
+	"github.com/omnivore-app/go-domdistiller/internal/converter"
+	"github.com/omnivore-app/go-domdistiller/internal/stringutil"
+	"github.com/omnivore-app/go-domdistiller/internal/testutil"
+	"github.com/omnivore-app/go-domdistiller/internal/webdoc"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -29,9 +29,9 @@ package docfilter_test
 import (
 	"testing"
 
-	"github.com/markusmobius/go-domdistiller/internal/filter/docfilter"
-	"github.com/markusmobius/go-domdistiller/internal/testutil"
-	"github.com/markusmobius/go-domdistiller/internal/webdoc"
+	"github.com/omnivore-app/go-domdistiller/internal/filter/docfilter"
+	"github.com/omnivore-app/go-domdistiller/internal/testutil"
+	"github.com/omnivore-app/go-domdistiller/internal/webdoc"
 	"github.com/stretchr/testify/assert"
 )
 

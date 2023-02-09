@@ -1,3 +1,4 @@
+//go:build ignore
 // +build ignore
 
 // Copyright (c) 2020 Markus Mobius
@@ -34,8 +35,8 @@ import (
 	fp "path/filepath"
 	"time"
 
-	distiller "github.com/markusmobius/go-domdistiller"
-	"github.com/markusmobius/go-domdistiller/data"
+	distiller "github.com/omnivore-app/go-domdistiller"
+	"github.com/omnivore-app/go-domdistiller/data"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

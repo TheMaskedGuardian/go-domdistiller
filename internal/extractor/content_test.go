@@ -32,10 +32,10 @@ import (
 	"testing"
 
 	"github.com/go-shiori/dom"
-	"github.com/markusmobius/go-domdistiller/internal/domutil"
-	"github.com/markusmobius/go-domdistiller/internal/extractor"
-	"github.com/markusmobius/go-domdistiller/internal/markup/opengraph"
-	"github.com/markusmobius/go-domdistiller/internal/testutil"
+	"github.com/omnivore-app/go-domdistiller/internal/domutil"
+	"github.com/omnivore-app/go-domdistiller/internal/extractor"
+	"github.com/omnivore-app/go-domdistiller/internal/markup/opengraph"
+	"github.com/omnivore-app/go-domdistiller/internal/testutil"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/html"
 )

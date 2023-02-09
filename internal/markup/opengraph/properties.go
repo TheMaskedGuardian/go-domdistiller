@@ -30,7 +30,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/markusmobius/go-domdistiller/data"
+	"github.com/omnivore-app/go-domdistiller/data"
 )
 
 type PropParser interface {

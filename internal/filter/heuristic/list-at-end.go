@@ -45,8 +45,8 @@ package heuristic
 import (
 	"math"
 
-	"github.com/markusmobius/go-domdistiller/internal/label"
-	"github.com/markusmobius/go-domdistiller/internal/webdoc"
+	"github.com/omnivore-app/go-domdistiller/internal/label"
+	"github.com/omnivore-app/go-domdistiller/internal/webdoc"
 )
 
 // ListAtEnd marks nested list-item blocks after the end of the main content.

@@ -31,8 +31,8 @@ import (
 	"testing"
 
 	"github.com/go-shiori/dom"
-	"github.com/markusmobius/go-domdistiller/internal/extractor/embed"
-	"github.com/markusmobius/go-domdistiller/internal/webdoc"
+	"github.com/omnivore-app/go-domdistiller/internal/extractor/embed"
+	"github.com/omnivore-app/go-domdistiller/internal/webdoc"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -43,8 +43,8 @@
 package heuristic
 
 import (
-	"github.com/markusmobius/go-domdistiller/internal/label"
-	"github.com/markusmobius/go-domdistiller/internal/webdoc"
+	"github.com/omnivore-app/go-domdistiller/internal/label"
+	"github.com/omnivore-app/go-domdistiller/internal/webdoc"
 )
 
 // BlockProximityFusion fuses adjacent blocks if their distance (in blocks) does not

@@ -43,13 +43,13 @@
 package extractor
 
 import (
-	"github.com/markusmobius/go-domdistiller/internal/filter/english"
-	"github.com/markusmobius/go-domdistiller/internal/filter/heuristic"
-	"github.com/markusmobius/go-domdistiller/internal/filter/simple"
-	"github.com/markusmobius/go-domdistiller/internal/label"
-	"github.com/markusmobius/go-domdistiller/internal/logutil"
-	"github.com/markusmobius/go-domdistiller/internal/stringutil"
-	"github.com/markusmobius/go-domdistiller/internal/webdoc"
+	"github.com/omnivore-app/go-domdistiller/internal/filter/english"
+	"github.com/omnivore-app/go-domdistiller/internal/filter/heuristic"
+	"github.com/omnivore-app/go-domdistiller/internal/filter/simple"
+	"github.com/omnivore-app/go-domdistiller/internal/label"
+	"github.com/omnivore-app/go-domdistiller/internal/logutil"
+	"github.com/omnivore-app/go-domdistiller/internal/stringutil"
+	"github.com/omnivore-app/go-domdistiller/internal/webdoc"
 )
 
 type ArticleExtractor struct {

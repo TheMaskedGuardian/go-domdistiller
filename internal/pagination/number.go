@@ -33,12 +33,12 @@ import (
 	"time"
 
 	"github.com/go-shiori/dom"
-	"github.com/markusmobius/go-domdistiller/data"
-	"github.com/markusmobius/go-domdistiller/internal/domutil"
-	"github.com/markusmobius/go-domdistiller/internal/logutil"
-	"github.com/markusmobius/go-domdistiller/internal/pagination/info"
-	"github.com/markusmobius/go-domdistiller/internal/pagination/parser"
-	"github.com/markusmobius/go-domdistiller/internal/stringutil"
+	"github.com/omnivore-app/go-domdistiller/data"
+	"github.com/omnivore-app/go-domdistiller/internal/domutil"
+	"github.com/omnivore-app/go-domdistiller/internal/logutil"
+	"github.com/omnivore-app/go-domdistiller/internal/pagination/info"
+	"github.com/omnivore-app/go-domdistiller/internal/pagination/parser"
+	"github.com/omnivore-app/go-domdistiller/internal/stringutil"
 	"golang.org/x/net/html"
 )
 

@@ -29,8 +29,8 @@ package info_test
 import (
 	"testing"
 
-	"github.com/markusmobius/go-domdistiller/internal/pagination/info"
-	tu "github.com/markusmobius/go-domdistiller/internal/testutil"
+	"github.com/omnivore-app/go-domdistiller/internal/pagination/info"
+	tu "github.com/omnivore-app/go-domdistiller/internal/testutil"
 	"github.com/stretchr/testify/assert"
 )
 

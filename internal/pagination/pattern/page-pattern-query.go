@@ -32,7 +32,7 @@ import (
 	nurl "net/url"
 	"strconv"
 
-	"github.com/markusmobius/go-domdistiller/internal/stringutil"
+	"github.com/omnivore-app/go-domdistiller/internal/stringutil"
 )
 
 // QueryParamPagePattern detects the page parameter in the query of a potential pagination URL. If

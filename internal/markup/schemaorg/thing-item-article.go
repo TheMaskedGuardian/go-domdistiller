@@ -27,7 +27,7 @@
 package schemaorg
 
 import (
-	"github.com/markusmobius/go-domdistiller/data"
+	"github.com/omnivore-app/go-domdistiller/data"
 	"golang.org/x/net/html"
 )
 

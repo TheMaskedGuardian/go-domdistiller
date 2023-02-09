@@ -29,7 +29,7 @@ package webdoc_test
 import (
 	"testing"
 
-	"github.com/markusmobius/go-domdistiller/internal/webdoc"
+	"github.com/omnivore-app/go-domdistiller/internal/webdoc"
 	"github.com/stretchr/testify/assert"
 )
 

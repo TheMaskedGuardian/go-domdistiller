@@ -30,9 +30,9 @@ import (
 	"fmt"
 
 	"github.com/go-shiori/dom"
-	"github.com/markusmobius/go-domdistiller/internal/filter/docfilter/scorer"
-	"github.com/markusmobius/go-domdistiller/internal/logutil"
-	"github.com/markusmobius/go-domdistiller/internal/webdoc"
+	"github.com/omnivore-app/go-domdistiller/internal/filter/docfilter/scorer"
+	"github.com/omnivore-app/go-domdistiller/internal/logutil"
+	"github.com/omnivore-app/go-domdistiller/internal/webdoc"
 	"golang.org/x/net/html"
 )
 

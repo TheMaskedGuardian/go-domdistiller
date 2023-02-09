@@ -33,7 +33,7 @@ import (
 	"time"
 
 	"github.com/go-shiori/dom"
-	"github.com/markusmobius/go-domdistiller/data"
+	"github.com/omnivore-app/go-domdistiller/data"
 	"golang.org/x/net/html"
 )
 
@@ -53,12 +53,12 @@ var (
 // arrays, structures, and object types. Callers call get* to access these properties.
 //
 // The properties we care about are:
-// - 4 required properties: title, type, image, url.
-// - 2 optional properties: description, site_name.
-// - image structured properties: image:url, image:secure_url, image:type, image:width, image:height
-// - profile object properties: first_name, last_name
-// - article object properties: section, published_time, modified_time, expiration_time, author;
-//                              each author is a URL to the author's profile.
+//   - 4 required properties: title, type, image, url.
+//   - 2 optional properties: description, site_name.
+//   - image structured properties: image:url, image:secure_url, image:type, image:width, image:height
+//   - profile object properties: first_name, last_name
+//   - article object properties: section, published_time, modified_time, expiration_time, author;
+//     each author is a URL to the author's profile.
 type Parser struct {
 	prefixes      PrefixNameList
 	propertyTable map[string]string

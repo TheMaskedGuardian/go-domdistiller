@@ -47,7 +47,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/markusmobius/go-domdistiller/internal/label"
+	"github.com/omnivore-app/go-domdistiller/internal/label"
 	"golang.org/x/net/html"
 )
 

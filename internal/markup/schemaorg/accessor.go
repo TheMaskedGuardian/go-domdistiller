@@ -26,7 +26,7 @@
 
 package schemaorg
 
-import "github.com/markusmobius/go-domdistiller/data"
+import "github.com/omnivore-app/go-domdistiller/data"
 
 func (ps *Parser) Title() string {
 	// In original dom-distiller they sort the articles by their area in

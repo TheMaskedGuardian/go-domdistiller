@@ -43,7 +43,7 @@
 package english
 
 import (
-	"github.com/markusmobius/go-domdistiller/internal/webdoc"
+	"github.com/omnivore-app/go-domdistiller/internal/webdoc"
 )
 
 // NumWordsRulesClassifier classifies several TextBlock as content or not-content through

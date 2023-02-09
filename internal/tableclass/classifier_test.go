@@ -31,8 +31,8 @@ import (
 	"testing"
 
 	"github.com/go-shiori/dom"
-	tc "github.com/markusmobius/go-domdistiller/internal/tableclass"
-	"github.com/markusmobius/go-domdistiller/internal/testutil"
+	tc "github.com/omnivore-app/go-domdistiller/internal/tableclass"
+	"github.com/omnivore-app/go-domdistiller/internal/testutil"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/html"
 )

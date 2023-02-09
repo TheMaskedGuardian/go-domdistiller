@@ -46,9 +46,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/markusmobius/go-domdistiller/internal/label"
-	"github.com/markusmobius/go-domdistiller/internal/stringutil"
-	"github.com/markusmobius/go-domdistiller/internal/webdoc"
+	"github.com/omnivore-app/go-domdistiller/internal/label"
+	"github.com/omnivore-app/go-domdistiller/internal/stringutil"
+	"github.com/omnivore-app/go-domdistiller/internal/webdoc"
 )
 
 var (

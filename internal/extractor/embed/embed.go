@@ -27,7 +27,7 @@
 package embed
 
 import (
-	"github.com/markusmobius/go-domdistiller/internal/webdoc"
+	"github.com/omnivore-app/go-domdistiller/internal/webdoc"
 	"golang.org/x/net/html"
 )
 

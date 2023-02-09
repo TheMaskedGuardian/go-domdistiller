@@ -26,7 +26,7 @@
 
 package markup
 
-import "github.com/markusmobius/go-domdistiller/data"
+import "github.com/omnivore-app/go-domdistiller/data"
 
 // Accessor is the interface that all parsers must implement so that Parser
 // can retrieve their properties.

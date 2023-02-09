@@ -29,9 +29,9 @@ package testutil
 import (
 	"net/url"
 
-	"github.com/markusmobius/go-domdistiller/internal/converter"
-	"github.com/markusmobius/go-domdistiller/internal/stringutil"
-	"github.com/markusmobius/go-domdistiller/internal/webdoc"
+	"github.com/omnivore-app/go-domdistiller/internal/converter"
+	"github.com/omnivore-app/go-domdistiller/internal/stringutil"
+	"github.com/omnivore-app/go-domdistiller/internal/webdoc"
 	"golang.org/x/net/html"
 )
 

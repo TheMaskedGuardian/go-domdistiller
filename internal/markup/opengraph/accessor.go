@@ -29,7 +29,7 @@ package opengraph
 import (
 	"strings"
 
-	"github.com/markusmobius/go-domdistiller/data"
+	"github.com/omnivore-app/go-domdistiller/data"
 )
 
 // Title returns the required "title" of the document.

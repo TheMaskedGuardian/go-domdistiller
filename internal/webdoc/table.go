@@ -30,7 +30,7 @@ import (
 	nurl "net/url"
 
 	"github.com/go-shiori/dom"
-	"github.com/markusmobius/go-domdistiller/internal/domutil"
+	"github.com/omnivore-app/go-domdistiller/internal/domutil"
 	"golang.org/x/net/html"
 )
 

@@ -31,9 +31,9 @@ import (
 	"time"
 
 	"github.com/go-shiori/dom"
-	"github.com/markusmobius/go-domdistiller/data"
-	"github.com/markusmobius/go-domdistiller/internal/extractor"
-	"github.com/markusmobius/go-domdistiller/internal/pagination"
+	"github.com/omnivore-app/go-domdistiller/data"
+	"github.com/omnivore-app/go-domdistiller/internal/extractor"
+	"github.com/omnivore-app/go-domdistiller/internal/pagination"
 	"golang.org/x/net/html"
 )
 
