@@ -4,6 +4,7 @@ go 1.15
 
 require (
 	github.com/go-shiori/dom v0.0.0-20210627111528-4e4722cd0d65
+	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e // indirect
 	github.com/sirupsen/logrus v1.8.1

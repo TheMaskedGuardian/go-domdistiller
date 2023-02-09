@@ -10,6 +10,7 @@ import (
 
 	"github.com/go-shiori/dom"
 	"github.com/omnivore-app/go-domdistiller/distiller"
+	"github.com/golang-jwt/jwt"
 )
 
 func main() {
@@ -31,10 +32,30 @@ func main() {
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
+	// decode JWT token and check if it's valid
+	token, err := jwt.Parse(r.Header.Get("Authorization"), func(token *jwt.Token) (interface{}, error) {
+		if _, ok := token.Method.(*jwt.SigningMethodHMAC); !ok {
+			return nil, fmt.Errorf("unexpected signing method: %v", token.Header["alg"])
+		}
+		return []byte(os.Getenv("JWT_SECRET")), nil
+	})
+	if err != nil {
+		w.WriteHeader(http.StatusUnauthorized)
+		fmt.Fprint(w, "Unauthorized")
+		return
+	}
+	if !token.Valid {
+		w.WriteHeader(http.StatusUnauthorized)
+		fmt.Fprint(w, "Unauthorized")
+		return
+	}
+
 	// Parse request body
 	body, err := ioutil.ReadAll(r.Body)
 	if err != nil {
-		fmt.Println("Failed to read request body:", err)
+		log.Println("Failed to read request body:", err)
+		w.WriteHeader(http.StatusBadRequest)
+		fmt.Fprint(w, "Failed to read request body")
 		return
 	}
 
@@ -42,6 +63,8 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	result, err := distiller.ApplyForReader(strings.NewReader(string(body)), nil)
 	if err != nil {
 		fmt.Println("Failed to apply distiller:", err)
+		w.WriteHeader(http.StatusInternalServerError)
+		fmt.Fprint(w, "Failed to apply distiller")
 		return
 	}
 
